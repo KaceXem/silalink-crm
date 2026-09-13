@@ -1,0 +1,166 @@
+2026-09-10 00:29:53,536 - ERROR - ID 1 (c.marchand@patisserie-armor.fr) : �chec persistant LLM/JSON apr�s r�essais. Erreur : Error code: 500 - {'error': {'message': 'felo/felo-social: provider � [500]: fetch failed (HTTP 500)', 'type': 'server_error', 'code': 'internal_server_error'}, 'diagnostics': {'poolSize': 10, 'attempted': 1, 'excluded': [{'provider': 'opencode', 'reason': 'exhausted_connection:noauth'}, {'provider': 'felo-web', 'reason': 'exhausted_connection:noauth'}], 'attemptOrder': [{'provider': 'opencode', 'model': 'oc/deepseek-v4-flash-free'}, {'provider': 'felo-web', 'model': 'felo/felo-social'}, {'provider': 'felo-web', 'model': 'felo/felo-social'}], 'terminalReason': '[500]: fetch failed', 'recovery': {'action': 'retry', 'next_step': 'The combo failed transiently. Retry the same combo, or switch to model: auto if the failure repeats.'}}, 'recovery_hint': {'action': 'retry', 'next_step': 'The combo failed transiently. Retry the same combo, or switch to model: auto if the failure repeats.'}}
+2026-09-10 00:31:01,069 - ERROR - ID 1 (c.marchand@patisserie-armor.fr) : �chec persistant LLM/JSON apr�s r�essais. Erreur : Error code: 500 - {'error': {'message': 'felo/felo-document: provider � [500]: fetch failed (HTTP 500)', 'type': 'server_error', 'code': 'internal_server_error'}, 'diagnostics': {'poolSize': 9, 'attempted': 1, 'excluded': [{'provider': 'felo-web', 'reason': 'exhausted_connection:noauth'}, {'provider': 'opencode', 'reason': 'exhausted_connection:noauth'}], 'attemptOrder': [{'provider': 'felo-web', 'model': 'felo/felo-document'}, {'provider': 'felo-web', 'model': 'felo/felo-document'}, {'provider': 'opencode', 'model': 'oc/mimo-v2.5-free'}], 'terminalReason': '[502]: fetch failed (cause: ENOTFOUND: getaddrinfo ENOTFOUND opencode.ai)', 'recovery': {'action': 'retry', 'next_step': 'The combo failed transiently. Retry the same combo, or switch to model: auto if the failure repeats.'}}, 'recovery_hint': {'action': 'retry', 'next_step': 'The combo failed transiently. Retry the same combo, or switch to model: auto if the failure repeats.'}}
+2026-09-10 00:31:25,170 - ERROR - ID 2 (j.delacroix@bionutrition-animale.com) : �chec persistant LLM/JSON apr�s r�essais. Erreur : Error code: 502 - {'error': {'message': '[502]: fetch failed (cause: ENOTFOUND: getaddrinfo ENOTFOUND opencode.ai)', 'type': 'server_error', 'code': 'bad_gateway'}, 'diagnostics': {'poolSize': 9, 'attempted': 0, 'excluded': [{'provider': 'opencode', 'reason': 'exhausted_connection:noauth'}], 'attemptOrder': [{'provider': 'opencode', 'model': 'oc/hy3-free'}], 'terminalReason': '[502]: fetch failed (cause: ENOTFOUND: getaddrinfo ENOTFOUND opencode.ai)', 'recovery': {'action': 'retry', 'next_step': 'The combo failed transiently. Retry the same combo, or switch to model: auto if the failure repeats.'}}, 'recovery_hint': {'action': 'retry', 'next_step': 'The combo failed transiently. Retry the same combo, or switch to model: auto if the failure repeats.'}}
+2026-09-10 00:31:34,699 - ERROR - ID 3 (m.antoine@huileries-midi.fr) : �chec persistant LLM/JSON apr�s r�essais. Erreur : Error code: 503 - {'error': {'message': 'Service temporarily unavailable: all targets were skipped by pre-dispatch filters', 'type': 'service_unavailable', 'code': 'ALL_TARGETS_SKIPPED'}, 'diagnostics': {'poolSize': 5, 'attempted': 0, 'excluded': [], 'attemptOrder': [], 'terminalReason': 'all_targets_skipped', 'recovery': {'action': 'switch-combo', 'next_step': "Every target was skipped before dispatch (capability pre-filter narrowed the pool and the remaining targets were all quota-exhausted/unavailable). Check the provider's quota in /dashboard/providers, r"}}, 'recovery_hint': {'action': 'switch-combo', 'next_step': "Every target was skipped before dispatch (capability pre-filter narrowed the pool and the remaining targets were all quota-exhausted/unavailable). Check the provider's quota in /dashboard/providers, r"}}
+2026-09-10 01:24:05,772 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:24:05,772 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:24:05,772 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:24:05,772 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:24:16,392 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:24:16,392 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:24:16,392 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:24:16,394 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:24:21,531 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:24:21,531 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:24:21,531 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:24:21,531 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:24:29,121 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:24:29,121 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:24:29,121 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:24:29,122 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:26:58,077 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:26:58,077 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:26:58,077 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:26:58,077 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:30:31,603 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:30:31,603 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:30:31,603 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:30:31,603 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:30:44,611 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:30:44,611 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:30:44,611 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:30:44,611 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:31:00,239 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:31:00,239 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:31:00,239 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:31:00,239 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:31:17,001 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:31:17,001 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:31:17,001 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:31:17,001 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:31:22,853 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:31:22,853 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:31:22,853 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:31:22,853 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:31:31,957 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:31:31,957 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:31:31,957 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:31:31,957 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:32:06,648 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:32:06,648 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:32:06,649 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:32:06,649 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:37:47,207 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:37:47,207 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:37:47,207 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:37:47,207 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:38:20,239 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:38:20,245 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:38:20,245 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:38:20,245 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:38:29,022 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:38:29,024 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:38:29,024 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:38:29,024 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:39:50,232 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:39:50,232 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:39:50,232 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:39:50,232 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:40:38,903 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:40:38,903 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:40:38,903 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:40:38,903 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:43:32,179 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:43:32,179 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:43:32,179 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:43:32,179 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:47:01,309 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:47:01,309 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:47:01,309 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:47:01,309 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:49:03,075 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:49:03,075 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:49:03,075 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:49:03,075 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:49:26,392 - ERROR - [Upload - Ligne 2] Rejet : Champs obligatoires manquants | Email: 'jean.dupont@agro-distrib.fr'
+2026-09-10 01:49:26,392 - ERROR - [Upload - Ligne 3] Rejet : Champs obligatoires manquants | Email: 's.martin@boulangerie-indus.fr'
+2026-09-10 01:49:26,392 - ERROR - [Upload - Ligne 4] Rejet : Champs obligatoires manquants | Email: 'c.marchand@patisserie-armor.fr'
+2026-09-10 01:49:26,392 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants | Email: 'mauvais-email.com'
+2026-09-10 01:56:43,237 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants.
+2026-09-10 02:04:44,706 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants.
+2026-09-10 02:05:23,905 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants.
+2026-09-10 02:15:02,507 - ERROR - [Upload - Ligne 5] Rejet : Champs obligatoires manquants.
+2026-09-10 02:29:00,569 [INFO] Base de données vide. Import et filtrage amont depuis prospects.csv...
+2026-09-10 02:29:00,580 [INFO] Import initial terminé. 4 prospects insérés, 0 rejetés.
+2026-09-10 02:29:00,586 [INFO] Début du traitement du pipeline pour 4 prospects en attente...
+2026-09-10 02:29:00,586 [INFO] Traitement ID 1 : Claire Marchand (c.marchand@patisserie-armor.fr) chez Pâtisserie & Biscuiterie d'Armor
+2026-09-10 02:29:34,139 [INFO] Retrying request in 0.414550 seconds
+2026-09-10 02:29:43,809 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:29:44,761 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:29:46,192 [INFO] Brouillon Gmail créé avec succès (ID: r-7167185756285952480) pour le prospect ID 1.
+2026-09-10 02:29:48,204 [INFO] Traitement ID 2 : Julien Delacroix (j.delacroix@bionutrition-animale.com) chez BioNutrition Animale Sud
+2026-09-10 02:29:56,442 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:29:56,471 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:29:57,783 [INFO] Brouillon Gmail créé avec succès (ID: r6130877219021933554) pour le prospect ID 2.
+2026-09-10 02:31:07,196 [ERROR] [Upload - Ligne 5] Rejet : Champs obligatoires manquants.
+2026-09-10 02:31:17,891 [INFO] Début du traitement du pipeline pour 4 prospects en attente...
+2026-09-10 02:31:17,891 [INFO] Traitement ID 3 : Marc Antoine (m.antoine@huileries-midi.fr) chez Huileries & Lipides du Midi
+2026-09-10 02:31:27,989 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:31:28,022 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:31:29,590 [INFO] Brouillon Gmail créé avec succès (ID: r-6284070461137532002) pour le prospect ID 3.
+2026-09-10 02:31:31,604 [INFO] Traitement ID 4 : Élodie Lambert (elodie.lambert@vitalfiber-nutrition.com) chez VitalFiber Nutrition
+2026-09-10 02:31:36,426 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:31:36,432 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:31:38,256 [INFO] Brouillon Gmail créé avec succès (ID: r-6356747630424330876) pour le prospect ID 4.
+2026-09-10 02:31:40,310 [INFO] Traitement ID 5 : Jean Dupont (jean.dupont@agro-distrib.fr) chez Agro Distribution
+2026-09-10 02:31:47,189 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:31:47,193 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:31:48,589 [INFO] Brouillon Gmail créé avec succès (ID: r2370577749399329813) pour le prospect ID 5.
+2026-09-10 02:31:50,609 [INFO] Traitement ID 6 : Sophie Martin (s.martin@boulangerie-indus.fr) chez Boulangerie Industrielle
+2026-09-10 02:31:59,159 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:31:59,164 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:32:00,672 [INFO] Brouillon Gmail créé avec succès (ID: r111109349451595520) pour le prospect ID 6.
+2026-09-10 02:32:02,733 [INFO] ==================================================
+2026-09-10 02:32:02,733 [INFO] RAPPORT DE FIN D'EXÉCUTION DU PIPELINE DE PROSPECTION
+2026-09-10 02:32:02,733 [INFO] * Succès (Brouillons créés) : 4
+2026-09-10 02:32:02,733 [INFO] * Erreurs LLM rencontrées   : 0
+2026-09-10 02:32:02,733 [INFO] ==================================================
+2026-09-10 02:34:04,433 [INFO] Base de données vide. Import et filtrage amont depuis prospects.csv...
+2026-09-10 02:34:04,447 [INFO] Import initial terminé. 4 prospects insérés, 0 rejetés.
+2026-09-10 02:34:04,452 [INFO] Début du traitement du pipeline pour 4 prospects en attente...
+2026-09-10 02:34:04,452 [INFO] Traitement ID 1 : Claire Marchand (c.marchand@patisserie-armor.fr) chez Pâtisserie & Biscuiterie d'Armor
+2026-09-10 02:34:15,460 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:34:15,492 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:34:17,077 [INFO] Brouillon Gmail créé avec succès (ID: r8773101809768368412) pour le prospect ID 1.
+2026-09-10 02:34:19,127 [INFO] Traitement ID 2 : Julien Delacroix (j.delacroix@bionutrition-animale.com) chez BioNutrition Animale Sud
+2026-09-10 02:34:26,110 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:34:26,117 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:34:27,617 [INFO] Brouillon Gmail créé avec succès (ID: r-5587204005801474570) pour le prospect ID 2.
+2026-09-10 02:34:29,668 [INFO] Traitement ID 3 : Marc Antoine (m.antoine@huileries-midi.fr) chez Huileries & Lipides du Midi
+2026-09-10 02:34:33,674 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:34:33,680 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:34:35,297 [INFO] Brouillon Gmail créé avec succès (ID: r-5117307754662410628) pour le prospect ID 3.
+2026-09-10 02:34:37,348 [INFO] Traitement ID 4 : Élodie Lambert (elodie.lambert@vitalfiber-nutrition.com) chez VitalFiber Nutrition
+2026-09-10 02:34:46,377 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:34:46,383 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:34:47,784 [INFO] Brouillon Gmail créé avec succès (ID: r-3763497409487359848) pour le prospect ID 4.
+2026-09-10 02:34:49,880 [INFO] ==================================================
+2026-09-10 02:34:49,882 [INFO] RAPPORT DE FIN D'EXÉCUTION DU PIPELINE DE PROSPECTION
+2026-09-10 02:34:49,883 [INFO] * Succès (Brouillons créés) : 4
+2026-09-10 02:34:49,884 [INFO] * Erreurs LLM rencontrées   : 0
+2026-09-10 02:34:49,884 [INFO] ==================================================
+2026-09-10 02:35:38,348 [ERROR] [Upload - Ligne 5] Rejet : Champs obligatoires manquants.
+2026-09-10 02:36:17,489 [INFO] Début du traitement du pipeline pour 2 prospects en attente...
+2026-09-10 02:36:17,489 [INFO] Traitement ID 5 : Jean Dupont (jean.dupont@agro-distrib.fr) chez Agro Distribution
+2026-09-10 02:36:23,858 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:36:23,867 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:36:25,372 [INFO] Brouillon Gmail créé avec succès (ID: r-5004341534061707054) pour le prospect ID 5.
+2026-09-10 02:36:27,389 [INFO] Traitement ID 6 : Sophie Martin (s.martin@boulangerie-indus.fr) chez Boulangerie Industrielle
+2026-09-10 02:36:31,539 [INFO] HTTP Request: POST http://localhost:20128/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 02:36:31,548 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-10 02:36:32,947 [INFO] Brouillon Gmail créé avec succès (ID: r4283333548684514220) pour le prospect ID 6.
+2026-09-10 02:36:35,005 [INFO] ==================================================
+2026-09-10 02:36:35,005 [INFO] RAPPORT DE FIN D'EXÉCUTION DU PIPELINE DE PROSPECTION
+2026-09-10 02:36:35,005 [INFO] * Succès (Brouillons créés) : 2
+2026-09-10 02:36:35,005 [INFO] * Erreurs LLM rencontrées   : 0
+2026-09-10 02:36:35,005 [INFO] ==================================================

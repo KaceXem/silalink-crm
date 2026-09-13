@@ -1,0 +1,27 @@
+# Environnements et dépendances
+venv/
+node_modules/
+OmniRoute/node_modules/
+silalink-frontend/node_modules/
+
+# Fichiers de build et de compilation
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+OmniRoute/.next/
+OmniRoute/.build/
+silalink-frontend/dist/
+
+# Bases de données locales et fichiers d'environnement
+*.sqlite
+*.sqlite3
+*.db
+.env
+OmniRoute/.env
+OmniRoute/server.env
+
+# Fichiers système Windows/Mac
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+company_name,contact_name,role,email,context,custom_solution
+Agro Distribution,Jean Dupont,Acheteur,jean.dupont@agro-distrib.fr,Recherche de protéines,Gluten de maïs 60%
+Boulangerie Industrielle,Sophie Martin,R&D,s.martin@boulangerie-indus.fr,Remplacement d'ingrédients,Amidon de maïs
+Pâtisserie & Biscuiterie d'Armor,Claire Marchand,Directrice,c.marchand@patisserie-armor.fr,Doublon exprès,Test
+Corrompu SA,Test Sans Solution,,mauvais-email.com,,
